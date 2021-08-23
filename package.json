@@ -2,6 +2,7 @@
   "name": "sd-06-project-react-testing-library",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Vitor8.github.io/pokedex-test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -22,7 +23,9 @@
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "lint:styles": "npx stylelint '**/*.css'",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,6 +56,7 @@
     "@stryker-mutator/jest-runner": "^3.3.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-sonarjs": "^0.5.0"
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "gh-pages": "^3.2.3"
   }
 }
