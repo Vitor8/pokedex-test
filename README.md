@@ -1,4 +1,4 @@
-OBS: Este foi um projeto que fiz na Trybe. A aplicação em si já estava feita, nosso objetivo foi apenas escrever os testes utilizando a React Testing Library
+OBS: Projeto feito no curso da Trybe. A aplicação em si já estava feita, nosso objetivo foi apenas escrever os testes utilizando a React Testing Library
 
 Link para o GitHub Pages: vitor8.github.io/pokedex-test
 
